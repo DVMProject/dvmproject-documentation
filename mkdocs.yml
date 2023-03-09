@@ -1,0 +1,49 @@
+site_name: DVMProject Docs
+site_url: https://dvmproject.io/docs
+site_author: Dev_Ranger#0001
+
+theme: 
+  name: material
+  palette:
+    scheme: slate
+    primary: blue
+    accent: blue
+  language: en
+  logo: "https://github.com/DVMProject/DVMProject.github.io/blob/gh-pages/images/project.png?raw=true"
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - toc.integrate
+    - navigation.top
+    
+  custom_dir: overrides
+  favicon: "https://github.com/DVMProject/DVMProject.github.io/blob/gh-pages/images/project.png?raw=true"
+  icon:
+    repo: fontawesome/brands/github
+
+
+nav:
+    - 'Main':
+      - 'Home': 'index.md'
+      - 'The Team': 'the-team.md'
+      - 'GPLv2 License': 'LICENSE.md'
+    - 'Host':
+      - 'Getting Started': 'host.md'
+    - 'FNE':
+      - 'Getting Started': 'fne.md'
+    - 'Firmware':
+      - 'Getting Started': 'fw.md'
+    - 'Hotspot Firmware':
+      - 'Getting Started': 'hs-fw.md'  
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.dvmproject.io
+      name: Join our discord!
+    - icon: fontawesome/brands/github
+      link: https://github.com/DVMProject
+
+copyright: Copyright © 2017 - 2023 DVMProject
